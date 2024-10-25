@@ -43,3 +43,16 @@ p[title] {
 p[title="test"] {
     color: orange;
 }
+
+a:hover {
+    color: green;
+    text-decoration: underline;
+}
+
+a:visited {
+    color: red;
+}
+
+a:link {
+    color: brown;
+}
