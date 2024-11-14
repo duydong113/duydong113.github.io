@@ -31,7 +31,7 @@
             text-decoration: underline;
         }
         nav {
-            background-color: #ddd;
+            background-color: white;
             overflow: hidden;
         }
         nav ul {
@@ -58,3 +58,33 @@
             font-size: 1em;
             line-height: 1.5;
         }
+        .navbar {
+            list-style-type: none; 
+            margin: 0;
+            padding: 0;
+            font-size: 16px;
+        }
+        .navbar li {
+            display: inline-block; 
+            margin-right: 10px;
+        }
+        .navbar li a {
+            text-decoration: none;
+            color: #f5e6c4;
+            background-color: #4b2e15;
+            padding: 10px 30px; 
+            border-radius: 0px; 
+            font-weight: bold;
+            transition: background-color 0.3s; 
+        }
+        .navbar li a:hover {
+            color: #ffffff; 
+            background-color: #8b4513;
+            padding: 10px 30px;
+        }
+        .navbar li a.active {
+            color: #ffffff;
+            background-color: #461c0a; 
+            padding: 10px 30px; 
+        }
+        
