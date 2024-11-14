@@ -1,0 +1,35 @@
+
+        .container {
+            display: flex; 
+            align-items: flex-start; 
+            gap: 20px;
+        }
+        body {
+            font-family: Arial, sans-serif;
+            margin: 20px;
+        }
+        .text {
+            font-style: italic;
+            margin-bottom: 0px;
+            font-weight: bold;
+            font-family:'Times New Roman', Times, serif;
+        }
+        table {
+            width: 60%;
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th {
+            background-color: #784212;
+            color: #ffffff;
+            padding: 10px;
+            text-align: center;
+        }
+        td {
+            padding: 8px;
+            text-align: center;
+        }
+        td, th {
+            border: 0px;
+        }
+  

@@ -5,13 +5,13 @@
         h1 {
             font-family: 'Comic Sans MS', cursive, sans-serif; 
             font-size: 3em;
-            color: rgb(112, 12, 12);
+            color:#f5e6c4;
             text-align: center;
             margin-top: 20px;
         }
         h2 {
             font-family: 'Comic Sans MS', cursive, sans-serif; 
-            color: rgb(112, 12, 12);
+            color: #f5e6c4;
             font-size: 1.5em;
             padding-left: 40px;
         }
@@ -87,4 +87,6 @@
             background-color: #461c0a; 
             padding: 10px 30px; 
         }
-        
+        .box1 {
+            background-color: #461c0a;
+        }
