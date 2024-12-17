@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Personal Blog</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header>
+    <div class="navbar">
+      <h1>Đồng Hữu Khánh Duy</h1>
+      <nav>
+        <ul>
+          <li><a href="#home">Trang chủ</a></li>
+          <li><a href="#about">Về tôi</a></li>
+          <li><a href="#services">Kinh nghiệm làm việc</a></li>
+          <li><a href="#contact">Liên hệ</a></li>
+        </ul>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section id="home" class="hero">
+    <div class="hero-content">
+      <h2>Tôi tên là Đồng Hữu Khánh Duy</h2>
+      <p>Là một sinh viên của Trường Quốc Tế - Đại học Quốc gia Hà Nội. Tôi tin với kinh nghiệm làm việc của mình có thể giúp ích được cho mọi người</p>
+    </div>
+    <div class="hero-image">
+        <img src="profile.jpg" alt="Profile Picture">
+    </div>
+  </section>
+  <!-- About Section -->
+  <section id="about" class="about">
+    <div class="about-image">
+      <img src="anh-meme-meo-15.jpg" alt="About Image">
+    </div>
+    <div class="about-content">
+      <h3>Là sinh viên năm 3 ngành Hệ thống thông tin quản lý của Trường Quốc Tế - Đại học quốc gia Hà Nội</h3>
+      <p>
+        Với niềm đam mê với viết code và thiết kế, tôi luôn mong muốn mang lại cho những khách hàng và những người truy cập, sử dụng webside của mình một cách dễ dàng và thuận tiện nhất
+      </p>
+    </div>
+  </section>
+  <div class="slider-container">
+    <button class="prev-btn" onclick="changeSlide(-1)" aria-label="Previous slide">&#10094;</button>
+    <div class="slider">
+      <img src="profile.jpg" alt="Image 1">
+      <img src="anh-meme-meo-15.jpg" alt="Image 2">
+      <img src="profile.jpg" alt="Image 3">
+      <img src="anh-meme-meo-15.jpg" alt="Image 4">
+    </div>
+    <button class="next-btn" onclick="changeSlide(1)" aria-label="Next slide">&#10095;</button>
+  </div>
+  
+  <!-- Services Section -->
+  <section id="services" class="services">
+    <h3>Kinh nghiệm làm việc</h3>
+    <p>18 năm kinh nghiệm phát triển web</p>
+    <div class="services-grid">
+      <div class="service-box">
+        <h4>User Interface Design</h4>
+        <p>100 Dự án</p>
+      </div>
+      <div class="service-box">
+        <h4>Website Design</h4>
+        <p>100 Dự án</p>
+      </div>
+      <div class="service-box">
+        <h4>Marketing</h4>
+        <p>100 Dự án</p>
+      </div>
+    </div>
+  </section>
+  
+
+  <section id="youtube-videos" class="youtube-videos">
+    <h3 style="color: black;">Các video YouTube tôi thấy hay</h3>
+    <div class="video-container">
+      <!-- Video 1 -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/g44Es0qxiXg?si=yjR6HN1x1rGiZloU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <!-- Video 2 -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/R5BShpBFJYw?si=axaaRxiRek7VNBG_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <!-- Video 3 -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/ozqay5VfKPA?si=5edXiq9roj_NKt0g" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      <!-- Video 3 -->
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/j5bs1-HLVS8?si=9wzD4QogqhEZGoHi" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+   
+    </div>
+  </section>
+  <!-- Contact Section -->
+<section id="contact" class="contact">
+  <h3>Liên hệ với tôi</h3>
+  <a href="https://www.facebook.com/duy.dong.9028194/" target="_blank">
+    <button id="FbButton">Liên hệ Facebook</button>
+  </a>
+</section>
+
+
+  <!-- Footer -->
+  <footer>
+    <p>Trang web thuộc quyền sở hữu bởi Đồng Hữu Khánh Duy</p>
+  </footer>
+
+  <script src="webpage.js"></script>
+</body>
+</html>
