@@ -66,21 +66,19 @@
   .hero-content h2 {
     font-size: 36px;
   }
-  
-  /* Hiệu ứng hover cho ảnh cá nhân */
+
 .hero-image img {
   width: 300px;
   height: 300px;
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 50%; /* Đảm bảo ảnh cá nhân có hình tròn */
+  border-radius: 50%; 
 }
 
 .hero-image img:hover {
-  transform: scale(1.1); /* Phóng to ảnh */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Thêm bóng đổ khi hover */
+  transform: scale(1.1); 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3);
 }
 
-/* Hiệu ứng hover cho ảnh trong phần About */
 .about-image img {
   width: 300px;
   height: 300px;#youtube-videos {
@@ -109,18 +107,18 @@ iframe {
 }
 
 iframe:hover {
-  transform: scale(1.05); /* Phóng to khi hover */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Bóng đổ khi hover */
-  filter: brightness(1.2); /* Tăng độ sáng khi hover */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); 
+  filter: brightness(1.2); 
 }
 
   transition: transform 0.3s ease, box-shadow 0.3s ease;
-  border-radius: 8px; /* Giữ góc bo tròn cho ảnh */
+  border-radius: 8px; 
 }
 
 .about-image img:hover {
-  transform: scale(1.1); /* Phóng to ảnh */
-  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); /* Thêm bóng đổ khi hover */
+  transform: scale(1.1); 
+  box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
 }
 
   
@@ -158,41 +156,38 @@ iframe:hover {
     flex-wrap: wrap; 
   }
   
-  /* Các box dịch vụ */
+  
 .service-box {
-  background-color: #f5f5f5; /* Màu nền mặc định */
+  background-color: #f5f5f5; 
   padding: 20px;
   border-radius: 10px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-  transition: transform 0.3s ease, box-shadow 0.3s ease; /* Hiệu ứng chuyển tiếp */
+  transition: transform 0.3s ease, box-shadow 0.3s ease; 
   text-align: center;
 }
 
-/* Hiệu ứng hover */
+
 .service-box:hover {
-  transform: translateY(-5px); /* Di chuyển lên nhẹ */
-  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); /* Tăng độ bóng khi hover */
-  background-color: #e0e0e0; /* Thay đổi màu nền khi hover */
+  transform: translateY(-5px); 
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2); 
+  background-color: #e0e0e0;
 }
 
-/* Hiệu ứng cho tiêu đề h4 khi hover */
 .service-box h4 {
-  color: #333; /* Màu sắc mặc định */
-  transition: color 0.3s ease; /* Thêm hiệu ứng cho màu tiêu đề */
+  color: #333; 
+  transition: color 0.3s ease; 
 }
 
 .service-box:hover h4 {
-  color: #007bff; /* Màu sắc tiêu đề thay đổi khi hover */
+  color: #007bff; 
 }
-
-/* Hiệu ứng cho phần mô tả */
 .service-box p {
-  color: #777; /* Màu sắc mặc định */
-  transition: color 0.3s ease; /* Thêm hiệu ứng cho màu mô tả */
+  color: #777; 
+  transition: color 0.3s ease; 
 }
 
 .service-box:hover p {
-  color: #333; /* Màu sắc mô tả thay đổi khi hover */
+  color: #333;
 }
 
   
@@ -219,34 +214,31 @@ iframe:hover {
     padding: 10px;
     background: rgba(0, 0, 0, 0.5);
   }
- /* Slider Container */
+ 
 .slider-container {
   position: relative;
-  width: 80%; /* Giảm chiều rộng slider (tùy chỉnh theo ý muốn) */
+  width: 80%; 
   margin: 30px auto;
   overflow: hidden;
   border-radius: 10px;
   box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
 }
 
-/* Slider Content */
 .slider img {
   display: none;
-  width: 100%; /* Chiều rộng của ảnh sẽ luôn bằng chiều rộng của slider */
-  max-height: 300px; /* Giới hạn chiều cao ảnh (tùy chỉnh theo ý muốn) */
-  object-fit: cover; /* Đảm bảo ảnh không bị méo và cắt bớt phần thừa nếu cần */
+  width: 100%; 
+  max-height: 300px;
+  object-fit: cover;
   opacity: 0;
   transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
 }
 
-/* Hiển thị ảnh hiện tại */
 .slider img.active {
   display: block;
-  opacity: 1; /* Hiển thị ảnh khi có class active */
-  transform: scale(1); /* Đảm bảo ảnh không bị kéo giãn */
+  opacity: 1; 
+  transform: scale(1); 
 }
 
-/* Navigation Buttons */
 .prev-btn, .next-btn {
   position: absolute;
   top: 50%;
@@ -297,7 +289,7 @@ iframe {
 }
 
 iframe:hover {
-  transform: scale(1.05); /* Phóng to khi hover */
-  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3); /* Bóng đổ khi hover */
-  filter: brightness(0.8); /* Tăng độ sáng khi hover */
+  transform: scale(1.05); 
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+  filter: brightness(0.8); 
 }
