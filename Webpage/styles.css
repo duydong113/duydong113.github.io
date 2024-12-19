@@ -48,7 +48,8 @@
   }
   
   .navbar ul li a:hover {
-    color: #a4a195; /* Thay đổi màu chữ khi hover */
+    color: #a4a195; 
+    transform: scale(1.1);
   }
   
   
@@ -120,8 +121,6 @@ iframe:hover {
   transform: scale(1.1); 
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.3); 
 }
-
-  
   .social-links {
     text-align: center;
     margin: 20px 0;
@@ -159,8 +158,8 @@ iframe:hover {
   
 .service-box {
   background-color: #f5f5f5; 
-  padding: 20px;
-  border-radius: 10px;
+  padding: 25px;
+  border-radius: 8px;
   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease, box-shadow 0.3s ease; 
   text-align: center;
@@ -215,29 +214,55 @@ iframe:hover {
     background: rgba(0, 0, 0, 0.5);
   }
  
-.slider-container {
-  position: relative;
-  width: 80%; 
-  margin: 30px auto;
-  overflow: hidden;
-  border-radius: 10px;
-  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-}
-
-.slider img {
-  display: none;
-  width: 100%; 
-  max-height: 300px;
-  object-fit: cover;
-  opacity: 0;
-  transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
-}
-
-.slider img.active {
-  display: block;
-  opacity: 1; 
-  transform: scale(1); 
-}
+  .slider-container {
+    position: relative;
+    width: 80%;
+    margin: 30px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  }
+  
+  .slider iframe {
+    display: none;
+    width: 100%;
+    height: 315px;
+    object-fit: cover;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out, transform 0.5s ease-in-out;
+  }
+  
+  .slider iframe.active {
+    display: block;
+    opacity: 1;
+    transform: scale(1);
+  }
+  
+  .prev-btn, .next-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: black;
+    border: none;
+    font-size: 24px;
+    padding: 10px 15px;
+    cursor: pointer;
+    z-index: 10;
+  }
+  
+  .prev-btn {
+    left: 10px;
+  }
+  
+  .next-btn {
+    right: 10px;
+  }
+  
+  .prev-btn:hover, .next-btn:hover {
+    background-color: rgba(0, 0, 0, 0.8);
+  }
+  
 
 .prev-btn, .next-btn {
   position: absolute;

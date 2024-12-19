@@ -45,19 +45,6 @@
       </p>
     </div>
   </section>
-
-  <!-- Slider Section -->
-  <div class="slider-container">
-    <button class="prev-btn" onclick="changeSlide(-1)" aria-label="Previous slide">&#10094;</button>
-    <div class="slider">
-      <img src="profile.jpg" alt="Image 1" class="slide">
-      <img src="anh-meme-meo-15.jpg" alt="Image 2" class="slide">
-      <img src="profile.jpg" alt="Image 3" class="slide">
-      <img src="anh-meme-meo-15.jpg" alt="Image 4" class="slide">
-    </div>
-    <button class="next-btn" onclick="changeSlide(1)" aria-label="Next slide">&#10095;</button>
-  </div>
-
   <!-- Services Section -->
   <section id="services" class="services">
     <h3>Kinh nghiệm làm việc</h3>
@@ -78,16 +65,30 @@
     </div>
   </section>
 
-  <!-- YouTube Videos Section -->
-  <section id="youtube-videos" class="youtube-videos">
-    <h3 style="color: black;">Các video YouTube tôi thấy hay</h3>
-    <div class="video-container">
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/wNhbBRXyaK8?si=OdwZRyXLOm-Obqr_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/R5BShpBFJYw?si=axaaRxiRek7VNBG_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/Sy6Tclhz9kI?si=hTW55sRCQ5M-Metg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/JezSOPOpVAQ?si=SaCDHBWrflQmuMkq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+ <!-- YouTube Videos Section -->
+<section id="youtube-videos" class="youtube-videos">
+  <h3 style="color: black;">Các video YouTube tôi thấy hay</h3>
+  <div class="slider">
+    <div class="slider-container">
+      <div class="slide">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/wNhbBRXyaK8?si=OdwZRyXLOm-Obqr_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="slide">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/R5BShpBFJYw?si=axaaRxiRek7VNBG_" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="slide">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/Sy6Tclhz9kI?si=hTW55sRCQ5M-Metg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
+      <div class="slide">
+        <iframe width="560" height="315" src="https://www.youtube.com/embed/JezSOPOpVAQ?si=SaCDHBWrflQmuMkq" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      </div>
     </div>
-  </section>
+    <!-- Navigation Buttons -->
+    <button class="prev-btn">❮</button>
+    <button class="next-btn">❯</button>
+  </div>
+</section>
+
 
   <!-- Contact Section -->
   <section id="contact" class="contact">
