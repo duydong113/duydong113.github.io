@@ -5,7 +5,7 @@
     if (confirmation) {
       window.location.href = "https://www.facebook.com/duy.dong.9028194/";
     } else {
-      alert("Hủy thao tác chuyển hướng.");
+      alert("Đã hủy");
     }
   });
   
