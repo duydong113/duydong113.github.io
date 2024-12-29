@@ -1,17 +1,13 @@
-/* Reset some default styling */
+
 body, h1, ul, li {
     margin: 0;
     padding: 0;
 }
-
-/* Basic styling for the body */
 body {
     font-family: Arial, sans-serif;
     background-color: #f2f2f2;
     color: #333;
 }
-
-/* Styling for the header */
 header {
     background-color: #e6e6e6;
     padding: 20px;
@@ -22,8 +18,6 @@ header h1 {
     font-size: 24px;
     font-weight: bold;
 }
-
-/* Styling for the navigation bar */
 nav {
     background-color: #f9f9f9;
     padding: 10px;
@@ -46,7 +40,6 @@ nav ul li a {
     font-size: 16px;
 }
 
-/* Article section styling */
 .featured-article.tech-article {
     border-left: 4px solid blue;
     padding: 20px;
@@ -54,22 +47,18 @@ nav ul li a {
     background-color: #fff;
 }
 
-/* Article title */
 article h2 {
     color: navy;
     margin-bottom: 20px;
     font-weight: bold;
 }
 
-/* Highlight box for special text */
 .highlight {
     background-color: #ffffd0;
     padding: 10px;
     margin-top: 10px;
     margin-bottom: 20px;
-}
-
-/* Styling for table */
+} 
 table {
     border-collapse: collapse;
     width: 100%;

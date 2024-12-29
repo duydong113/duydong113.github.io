@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DongHuuKhanhDuy</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Biểu mẫu khảo sát ITviec</h1>
+    <article>
+        
+        <div class="bieumau"></div>
+        <form>
+            <label for="name">Họ và tên:</label>
+            <br>
+            <input type="text" id="name" placeholder="Nhập tên của bạn" required>
+            <br>
+            <label for="email">Email:</label>
+            <br>
+            <input type="email" id="email" placeholder="Nhập email của bạn" required>
+            <br>
+            <label for="age">Tuổi:</label>
+            <br>
+            <input type="number" id="age" placeholder="Nhập tuổi của bạn" required>
+            <br>
+            <label for="work">Hiện tại bạn đang làm gì</label>
+            <br>
+         <select name="work" id="work">
+            <option value="0">Học sinh/Sinh viên</option>
+            <option value="1">Đã đi làm</option>
+            <option value="2">Chưa đi làm</option>
+         </select>
+         <br>
+        
+        <label for="friend">Bạn sẽ giới thiệu ITViec cho bạn bè chứ?</label>
+        <br>
+        <input type="radio" id="yes" value="Yes" name="friend">
+        <lable for="yes">Có chứ</lable>
+        <br>
+        <input type="radio" id="no" value="No" name="friend">
+        <lable for="no">Tôi nghĩ là không</lable>
+        <br>
+        <input type="radio" id="maybe" value="Maybe" name="friend">
+        <lable for="maybe">Có thể</lable>
+        <br>
+        <label for="language">Ngôn ngữ lập trình và Framework bạn đã biết</label>
+        <br>
+        <input type="checkbox" id="C" value="1" name="language">
+        <lable for="C">C</lable>
+        <br>
+        <input type="checkbox" id="C++" value="2" name="language">
+        <lable for="C++">C++</lable>
+        <br>
+        <input type="checkbox" id="C#" value="3" name="language">
+        <lable for="C#">C#</lable>
+        <br>
+        <label for="comment"> Bạn có câu hỏi gì cho ITViec không ạ?</label>
+        <br>
+        <input type="text" id="comment" placeholder="Enter your comment here">
+        </article>
+</body>
+</html>

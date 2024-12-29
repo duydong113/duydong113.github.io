@@ -1,0 +1,10 @@
+.text{
+    color: blue;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: smaller;
+}
+
+.para{
+    color: rgba(100, 10, 145, 0.573);
+    font-size: larger;
+}
